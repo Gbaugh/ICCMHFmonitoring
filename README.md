@@ -19,4 +19,33 @@ Facility X
 a.	Calculate target, then review across health facilities
 b.	Algorithm for using historical data (twelve months, one month)
 c.	Standard deviation for each step
-d.	
+d.	Reporting rate (must be 100% of CHWs reporting)
+e. 
+
+Endline Survey (%)			
+  Careseeking from CORPs for fever	
+  Received Assessment	Malaria Positivity	
+  Received Treatment
+
+Actual DHIS2 (n)				(or RAcE reports)
+  Careseeking from CORPs for fever	
+  Assessed	
+  RDT +	
+  Stock out for 7 consecutive days	
+  Received Treatment
+
+Calculated (n)		
+  Careseeking from CORPs for fever	
+  Positive RDT	
+  Received Treatment
+  
+  Factors:
+    Aggregate CHW U5 Population
+    Careseeking
+    Historical RDT+ rate for the site
+    RDT+ to Received Treatment
+    Standard deviation
+  
+  Product:
+    Probability of the number reported is accurate (data quality)
+    Probability of the number reported is in line with a well supported group of CHWs (programme quality)
